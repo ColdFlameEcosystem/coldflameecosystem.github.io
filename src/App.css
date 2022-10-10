@@ -1,5 +1,7 @@
 .navbar {
     background: rgba(255, 255, 255, 0.2);
+    z-index: 2;
+    position: absolute;
 }
 
 .blurify {
@@ -23,12 +25,12 @@
 /* remove all properties if screen is mobile */
 @media screen and (max-width: 991px) {
     .blurify {
-        background: transparent;
-        border-radius: 0;
+        background: transparent!important;
+        border-radius: 0!important;
     }
 
     .blurify>* {
-      margin: 0;
+      margin: 0!important;
     }
 }
 
@@ -36,4 +38,18 @@
     background: url("/background.jpg");
     min-height: 100vh;
     background-size: cover;
+    z-index: 1;
+    position: relative;
+}
+
+.hero {
+    min-height: 100vh;
+}
+
+.hero-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-top: 100px;
 }
