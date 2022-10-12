@@ -29,7 +29,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Build
-        run: cd /home/runner/work/coldflameos.github.io/ && npm run build
+        run: ls && cd /home/runner/work/coldflameos.github.io/ && npm run build
       - name: Checkout
         uses: actions/checkout@v3
       - name: Setup Pages
