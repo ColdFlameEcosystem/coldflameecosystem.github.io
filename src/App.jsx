@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Nav from "./components/Nav";
 import Hero from "./components/Hero";
 import Carousel from "./components/Carousel";
+import DiscordDisplay from "./components/DiscordDisplay";
 
 function App() {
   return (
@@ -22,14 +23,9 @@ function App() {
                     image: 'https://dummyimage.com/1920x1080/000/fff&text=+'
                 }
             ]}/>
+            <DiscordDisplay/>
+            <br/>
         </div>
-        {
-          /*
-          todo-list
-           <DiscordDisplay/>
-           <Footer/>
-          */
-        }
       </>
   );
 }

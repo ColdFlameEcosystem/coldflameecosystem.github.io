@@ -1,0 +1,28 @@
+.discord-display {
+    color: white;
+    width: 80%;
+    max-width: 350px;
+    border-radius: 6px;
+}
+
+.center-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.discord-header {
+    background: hsl(235,calc(1*85.6%),64.7%);
+    width: 100%;
+    padding: calc(70px/4);
+    height: 70px;
+    border-radius: 6px 6px 0 0;
+}
+
+.members {
+    width: 100%;
+    padding: calc(70px/4);
+    height: 300px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
