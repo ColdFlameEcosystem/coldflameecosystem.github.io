@@ -4,7 +4,7 @@ const Nav = () => {
     return (
         <>
             {/* Create bootstrap nav */}
-            <nav className="navbar navbar-expand-lg navbar-light">
+            <nav className="navbar navbar-expand-lg navbar-dark">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="#"><img style={{'width': 'auto', 'height': '50px'}}
                                                               src="/coldflameos.svg" alt=""/>ColdFlame OS</a>

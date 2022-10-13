@@ -6,7 +6,7 @@ const Hero = ({children}) => {
             <div className="hero">
                 {children}
                 <div className="hero-inner">
-                    <h1>The Better You</h1>
+                    <h1>The <span className={'stylize'}><em>better</em></span> You</h1>
                 </div>
             </div>
         </>

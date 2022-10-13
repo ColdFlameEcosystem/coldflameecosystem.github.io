@@ -1,11 +1,11 @@
 .navbar {
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(0, 0, 0, 0.5);
     z-index: 2;
     position: absolute;
 }
 
 .blurify {
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.7);
     border-radius: 25px;
 }
 
@@ -20,18 +20,6 @@
 
 .blurify>:last-child {
     margin-right: 20px;
-}
-
-/* remove all properties if screen is mobile */
-@media screen and (max-width: 991px) {
-    .blurify {
-        background: transparent!important;
-        border-radius: 0!important;
-    }
-
-    .blurify>* {
-      margin: 0!important;
-    }
 }
 
 .bg {
@@ -52,4 +40,46 @@
     justify-content: center;
     align-content: center;
     margin-top: 100px;
+}
+
+.navbar-brand, .hero {
+    color: white!important;
+}
+
+.nav-link {
+    color: black!important;
+    width: fit-content;
+}
+
+.nav-link:hover {
+    color: blueviolet!important;
+}
+
+/* remove all properties if screen is mobile */
+@media screen and (max-width: 991px) {
+    .blurify {
+        background: transparent!important;
+        border-radius: 0!important;
+    }
+
+    .blurify>* {
+        margin: 0!important;
+    }
+
+    .nav-link {
+        color: white!important;
+    }
+}
+
+.hero-inner > h1 {
+    background: rgba(255,255,255,0.5);
+    width: fit-content;
+    padding: 20px;
+    border-radius: 100px;
+    color: black;
+}
+
+.stylize {
+    font-family: 'Satisfy', cursive;
+    font-weight: 900;
 }
