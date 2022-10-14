@@ -31,6 +31,15 @@ const Footer = () => {
                                 </div>
                             </div>
                         </div>
+                        <div className="col-lg-4 col-md-6 col-sm-12">
+                            <div className="full">
+                                <div className="footer_blog full white_fonts">
+                                    <h3>Team ColdFlame OS</h3>
+                                    <br/>
+                                    Website Contributor - <a target={'__blank'} href="https://github.com/coder-examples">Aayush Shah</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
