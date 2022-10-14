@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../coldflame-blog/.idea/coldflame-blog.iml" filepath="$PROJECT_DIR$/../coldflame-blog/.idea/coldflame-blog.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/coldflamesos.github.io.iml" filepath="$PROJECT_DIR$/.idea/coldflamesos.github.io.iml" />
     </modules>
   </component>
